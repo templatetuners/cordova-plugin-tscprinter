@@ -163,7 +163,7 @@ public class tscprintwifi extends CordovaPlugin {
 		} else if(action.equals("status")) {
 
 			TscWifiActivity TscEthernetDll = new TscWifiActivity();
-			TscEthernetDll.openport("192.168.221.12", 9100);
+			TscEthernetDll.openport(address, 9100);
 
 			//Note: 00 = Idle, 01 = Head Opened
 			String status = TscEthernetDll.printerstatus(); //printerstatus(int timeout)
