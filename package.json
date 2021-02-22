@@ -22,17 +22,19 @@
     "ecosystem:cordova",
     "cordova-android"
   ],
-  "engines": [{
-    "name": "cordova",
-    "version": ">=3.0.0"
-  }],
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
   "author": "Adrian Axinte",
-  "license": "Apache 2.0",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/templatetuners/cordova-plugin-tscprinter/issues"
   },
-  "homepage": "https://github.com/templatetuners/cordova-plugin-tscprinter#readme"
+  "homepage": "https://github.com/templatetuners/cordova-plugin-tscprinter#readme",
+  "scripts": {
+    "test": "cordova plugin install cordova-plugin-tscprinter"
+  }
 }
