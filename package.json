@@ -1,0 +1,38 @@
+{
+  "name": "cordova-tscprinter",
+  "version": "0.0.1",
+  "description": "Cordova Plugin for TSC Printers",
+  "cordova": {
+    "id": "tsc-cordova",
+    "platforms": [
+      "android"
+    ]
+  },
+  "main": "www/clsprinter.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/templatetuners/cordova-tscprinter.git"
+  },
+  "keywords": [
+    "printer",
+    "citizen",
+    "label",
+    "qr",
+    "barcode",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "engines": [{
+    "name": "cordova",
+    "version": ">=3.0.0"
+  }],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "author": "Adrian Axinte",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/templatetuners/cordova-tscprinter/issues"
+  },
+  "homepage": "https://github.com/templatetuners/cordova-tscprinter#readme"
+}
